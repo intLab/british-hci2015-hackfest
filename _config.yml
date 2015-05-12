@@ -8,9 +8,9 @@ description: "British HCI 2015 HackFest webpage."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: ff0000
-  secondary: 00ff00
-  secondary-dark: 0000ff
+  primary: dd0000
+  secondary: a89f6c
+  secondary-dark: 333
 
 # Team names, titles and social links
 people:
@@ -52,14 +52,21 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://british-hci2015.org/
+    url: https://twitter.com/HCI_2015
   - title: github
-    url: https://github.com/shearer12345/british-hci2015-hackfest
+    url: https://github.com/lincolnSocialComputing/british-hci2015-hackfest
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Lincoln Social Computing Research Centre
   - line: University of Lincoln, Lincoln, LN6 7TS, UK
+
+# Collections
+
+collections:
+  hackers:
+    output: true
+    permalink: /hacker/:name
 
 # Build settings
 markdown: kramdown

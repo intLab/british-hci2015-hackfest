@@ -1,0 +1,61 @@
+.bg-green {
+    background-color: #00ff00;
+}
+
+.text-secondary {
+    color: #{{ site.color.secondary }};
+}
+
+.bg-brayford {
+
+  position: relative;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.bg-brayford:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.30;
+    background-image: url("img/logos/brayford.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.bg-cathedral {
+
+  position: relative;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.bg-cathedral:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.30;
+    background-image: url("img/logos/cathedral1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}

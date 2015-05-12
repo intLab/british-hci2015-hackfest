@@ -1,19 +1,18 @@
-Agency Jekyll theme
+british-hci2015-hackfest
 ====================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
 # How to use
 
-###Portfolio 
+###Hacker's details
 
-Portfolio projects are in '/_posts'
+Hacker's details are in '/_hackers'
 
-Images are in '/img/portfolio'
+Images are in '/img/hackers'
 
-###About
+###Timeline
 
-Images are in '/img/about/'
+Images are in '/img/timeline/'
 
 ###Team
 
@@ -24,7 +23,9 @@ Images are in '/img/team/'
 
 # Demo
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+View this page theme in action [here](http://lincolnsocialcomputing.github.io/british-hci2015-hackfest/)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
