@@ -1,36 +1,40 @@
 <!-- Hackers Modals -->
 {% for hacker in site.hackers %}
-   <div class="hacker-modal modal fade" id="hackerModal{{ hacker.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-       <div class="modal-content">
-           <div class="close-modal" data-dismiss="modal">
-               <div class="lr">
-                   <div class="rl">
-                   </div>
-               </div>
-           </div>
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-8 col-lg-offset-2">
-                       <div class="modal-body">
-                           <h2>{{ hacker.name }}</h2>
-                           <hr class="star-primary">
-                           <img src="img/hackers/{{ hacker.img }}" class="img-responsive img-centered" alt="{{ hacker.alt }}">
-                           <p>{{ hacker.bio }}</p>
-                           <ul class="list-inline item-details">
-                             <li>Institution:
-                                 <strong><a href="{{ hacker.institutionURL }}">{{ hacker.institution }}</a>
-                                 </strong>
-                             </li>
-                             <li>Web site:
-                                 <strong><a href="{{ hacker.website }}">{{ hacker.website }}</a>
-                                 </strong>
-                             </li>
-                           </ul>
-                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
+<div class="hacker-modal modal fade" id="hackerModal{{ hacker.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body hacker">
+
+                        <h2>{{ hacker.name }}</h2>
+                        <hr class="star-primary">
+                        <img src="img/hackers/{{ hacker.img }}" class="img-responsive img-centered" alt="{{ hacker.alt }}">
+                        <p>{{ hacker.bio }}</p>
+                        <ul class="list-inline item-details">
+                            <li>Web site:
+                                <strong><a href="{{ hacker.website }}">{{ hacker.website }}</a>
+                                </strong>
+                            </li>
+                            <li>
+                                <div class="institution">Institution:
+                                    <strong><a href="{{ hacker.institutionURL }}">{{ hacker.institution }}</a>
+                                    </strong>
+                                    <img src="img/logos/{{ hacker.institutionLogo }}" class="img-responsive img-centered" height="80px" alt="{{ hacker.alt }}"">
+                                </div>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endfor %}

@@ -8,9 +8,9 @@
 
 .bg-brayford {
 
-  position: relative;
-  background: #f7f7f7;
-  overflow: hidden;
+    position: relative;
+    background: #f7f7f7;
+    overflow: hidden;
 }
 
 .bg-brayford:before {
@@ -35,9 +35,9 @@
 
 .bg-cathedral {
 
-  position: relative;
-  background: #f7f7f7;
-  overflow: hidden;
+    position: relative;
+    background: #f7f7f7;
+    overflow: hidden;
 }
 
 .bg-cathedral:before {
@@ -53,9 +53,55 @@
     background-image: url("img/logos/cathedral1.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
-    -ms-background-size: contain;
-    -o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
     background-size: contain;
+}
+
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.hacker {
+    margin-bottom: 50px;
+    text-align: left;
+    margin: 20px;
+}
+
+.hacker img {
+    text-indent: -1000px; /* hide link text */
+    overflow: hidden;
+    background-size: contain;
+    height: 225px;
+}
+
+.hacker p {
+    margin-top: 20px;
+}
+
+.institution {
+    float:left;
+    line-height:30px;
+
+}
+
+.institution img {
+    float: right;
+    height: 80px !important;
+    padding-left: 100px;
 }

@@ -2,7 +2,7 @@
 name: Connie Golsteijn
 tagline: Hybrid thinkering
 layout: default
-modal-id: 1
+modal-id: golsteijn
 img: golsteijn.jpg
 institution: University College London, ICRI Cities
 institutionURL: http://www.cities.io/
