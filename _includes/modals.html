@@ -22,13 +22,23 @@
                                 <strong><a href="{{ hacker.website }}">{{ hacker.website }}</a>
                                 </strong>
                             </li>
+                            <li>Social:
+                                <ul class="list-inline social-buttons">
+                                    {% for network in hacker.social %}
+                                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                    {% endfor %}
+
+                                </ul>
+                            </li>
                             <li>
                                 <div class="institution">Institution:
                                     <strong><a href="{{ hacker.institutionURL }}">{{ hacker.institution }}</a>
                                     </strong>
-                                    <img src="img/logos/{{ hacker.institutionLogo }}" class="img-responsive img-centered" height="80px" alt="{{ hacker.alt }}"">
+                                    <img src="img/logos/{{ hacker.institutionLogo }}" class="img-responsive img-centered" height="80px" alt="{{ hacker.alt }}">
                                 </div>
                             </li>
+
+
                         </ul>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>

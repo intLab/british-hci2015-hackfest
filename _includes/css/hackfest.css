@@ -79,9 +79,10 @@
 
 .hacker {
     margin-bottom: 50px;
-    text-align: left;
     margin: 20px;
+    text-align: center;
 }
+
 
 .hacker img {
     text-indent: -1000px; /* hide link text */
@@ -91,6 +92,7 @@
 }
 
 .hacker p {
+    text-align: left;
     margin-top: 20px;
 }
 
@@ -104,4 +106,5 @@
     float: right;
     height: 80px !important;
     padding-left: 100px;
+    clear: both;
 }
