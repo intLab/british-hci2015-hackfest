@@ -1,7 +1,7 @@
 british-hci2015-hackfest
 ====================
 
-# Hosted [here](http://lincolnsocialcomputing.github.io/british-hci2015-hackfest/)
+# Hosted at [http://hack.british-hci2015.org/](http://hack.british-hci2015.org/)
 
 # How to use
 
