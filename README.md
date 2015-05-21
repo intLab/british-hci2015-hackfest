@@ -1,29 +1,24 @@
 british-hci2015-hackfest
 ====================
 
+# Hosted [here](http://lincolnsocialcomputing.github.io/british-hci2015-hackfest/)
 
 # How to use
 
 ###Hacker's details
 
-Hacker's details are in '/_hackers'
+If you'll attend the hackfest:
 
-Images are in '/img/hackers'
-
-###Timeline
-
-Images are in '/img/timeline/'
+1. Fork this repository (or raise an issue, or email (bhci2015hackfest@gmail.com)
+1. add a picture of yourself in ```/img/hackers```
+2. add an entry about yourself in ```/_hackers```
+  - see other entries for 
 
 ###Team
 
 Team members and info are in '_config.yml'
 
 Images are in '/img/team/'
-
-
-# Demo
-
-View this page theme in action [here](http://lincolnsocialcomputing.github.io/british-hci2015-hackfest/)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
