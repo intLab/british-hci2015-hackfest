@@ -3,7 +3,7 @@ name: Amy Guy
 tagline: Indieweb all the things
 layout: default
 modal-id: guy
-img: http://rhiaro.co.uk/stash/dp.png
+img: guy.png
 institution: University of Edinburgh, School of Informatics
 institutionURL: http://inf.ed.ac.uk
 website: http://rhiaro.co.uk
