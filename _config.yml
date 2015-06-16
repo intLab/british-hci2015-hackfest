@@ -46,12 +46,10 @@ people:
   pic: guy
   position: HackFest Deputy Chair
   social:
+    - title: home
+      url: http://rhiaro.co.uk/
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: http://twitter.com/rhiaro
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
