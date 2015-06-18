@@ -3,7 +3,7 @@ name: Amy Guy
 tagline: Indieweb all the things
 layout: default
 modal-id: guy
-img: guy.png
+img: guy.jpg
 institution: University of Edinburgh, School of Informatics
 institutionURL: http://inf.ed.ac.uk
 institutionLogo: infed.jpg
