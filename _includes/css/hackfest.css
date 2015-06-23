@@ -122,3 +122,5 @@ section {
     padding-left: 100px;
     clear: both;
 }
+
+#mapEmbed { height: 480px; }

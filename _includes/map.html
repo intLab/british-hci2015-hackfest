@@ -1,4 +1,7 @@
 <!-- Map Section -->
+    <!-- Leaflet JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+
     <section id="map" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -7,7 +10,24 @@
                     <h3 class="section-subheading text-muted">MHT Building, University of Lincoln, UK</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="mapEmbed" >
+                MAP
             </div>
+
         </div>
     </section>
+    <script>
+
+        var map = L.map('mapEmbed').setView([53.22879, -0.54953], 14);
+
+        L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+                '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            id: 'examples.map-i875mjb7'
+        }).addTo(map);
+
+        var marker = L.marker([53.22879, -0.54953]).addTo(map);
+        marker.bindPopup("<a href=\"http://www.openstreetmap.org/?mlat=53.22889&mlon=-0.54904#map=19/53.22889/-0.54904\"> MHT Building, University of Lincoln, UK</a> <br> <a href=\"https://www.google.co.uk/maps/place/Media+Humanities+Technology+Bldg,+University+of+Lincoln,+Lincoln+LN6+7TS/@53.2288979,-0.5493705,17z/data=!3m1!4b1!4m2!3m1!1s0x48785b27c9d8cd01:0x3e3dac7ca369f126?hl=en\"> on Google Maps</a>");
+    </script>
